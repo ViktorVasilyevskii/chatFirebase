@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "764380912081",
+    "project_id": "chat-7053c",
+    "storage_bucket": "chat-7053c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764380912081:android:4a3fdb42aca05b7cb668f0",
+        "android_client_info": {
+          "package_name": "com.vasilevskii.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764380912081-mcv5n4gbnpfgbq4i76qgpfg3nb6skcnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMKfDKTgBFOahSK2b-Sg7UX7vV8qdjMlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764380912081-mcv5n4gbnpfgbq4i76qgpfg3nb6skcnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

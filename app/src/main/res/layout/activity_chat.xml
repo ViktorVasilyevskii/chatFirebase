@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearlayout"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_message"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_edit_message"
+            android:layout_weight="80"
+            android:layout_marginStart="@dimen/margin_start_edit_message"
+            android:paddingHorizontal="@dimen/padding_edit_message"
+            android:background="@drawable/edit_background"
+            android:hint="@string/hint_edit_message"/>
+
+        <ImageView
+            android:id="@+id/send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_button"
+            android:layout_weight="20"
+            android:layout_marginHorizontal="@dimen/margin_horizontal_button_send"
+            android:src="@drawable/send_message"
+            android:background="@drawable/button_background"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_log_in">10dp</dimen>
+    <dimen name="margin_horizontal_log_in">20dp</dimen>
+    <dimen name="padding_edit">10dp</dimen>
+
+    <dimen name="margin_message">5dp</dimen>
+    <dimen name="text_size_message">18sp</dimen>
+    <dimen name="padding_message">10dp</dimen>
+
+    <dimen name="height_button">50dp</dimen>
+    <dimen name="height_edit_message">50dp</dimen>
+    <dimen name="margin_start_edit_message">10dp</dimen>
+    <dimen name="padding_edit_message">10dp</dimen>
+    <dimen name="margin_horizontal_button_send">5dp</dimen>
+
+    <dimen name="margin_top_recycler_user">5dp</dimen>
+    <dimen name="margin_start_recycler_user">10dp</dimen>
+    <dimen name="size_text_user_name">30sp</dimen>
+    <dimen name="padding_recycler_user">5dp</dimen>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LogIn">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_log_in"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_log_in"
+        android:padding="@dimen/padding_edit"
+        android:background="@drawable/edit_background"
+        android:hint="@string/hint_name_sign_up"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_name"
+        android:layout_marginTop="@dimen/margin_top_log_in"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_log_in"
+        android:padding="@dimen/padding_edit"
+        android:background="@drawable/edit_background"
+        android:hint="@string/hint_email"/>
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_email"
+        android:layout_marginTop="@dimen/margin_top_log_in"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_log_in"
+        android:padding="@dimen/padding_edit"
+        android:background="@drawable/edit_background"
+        android:hint="@string/hint_password"/>
+
+    <Button
+        android:id="@+id/button_sing_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_log_in"
+        android:layout_below="@id/edit_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_log_in"
+        android:text="@string/text_button_sign_up"/>
+
+
+
+</RelativeLayout>
