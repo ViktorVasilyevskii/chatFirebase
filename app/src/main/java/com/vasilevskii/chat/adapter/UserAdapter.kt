@@ -26,7 +26,7 @@ class UserAdapter(private val context: Context, private val userList: ArrayList<
 
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         val currentUser = userList[position]
-
+        Log.d("3333", "===");
         holder.binding.textName.text = currentUser.name
 
         holder.itemView.setOnClickListener {
